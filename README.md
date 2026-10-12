@@ -1,6 +1,5 @@
 # vtex-order-shipping-hook
 
-[![CI](https://github.com/ivan1-git/vtex-order-shipping-hook/actions/workflows/ci.yml/badge.svg)](https://github.com/ivan1-git/vtex-order-shipping-hook/actions/workflows/ci.yml)
 ![Node 22.18+](https://img.shields.io/badge/Node-22.18%2B-5fa04e)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
 
@@ -130,7 +129,8 @@ npm run typecheck
 
 18 pruebas con el test runner que ya trae Node (`node:test`): la cola (reintentos, orden,
 duplicados), la lógica de pedidos (incluido el caso de "la guía se generó pero falló el
-start-handling") y los endpoints con `fastify.inject`. Corren en GitHub Actions en cada push.
+start-handling") y los endpoints con `fastify.inject`. El workflow de GitHub Actions
+([`ci.yml`](.github/workflows/ci.yml)) corre el typecheck y las pruebas en cada push.
 
 ## Lo que cambiaría para producción
 
