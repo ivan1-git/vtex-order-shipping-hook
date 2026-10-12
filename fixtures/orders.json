@@ -1,0 +1,63 @@
+[
+  {
+    "orderId": "v1001-01",
+    "status": "ready-for-handling",
+    "clientProfileData": { "firstName": "Mariana", "lastName": "López", "phone": "+525512345678" },
+    "shippingData": {
+      "address": {
+        "receiverName": "Mariana López",
+        "postalCode": "06700",
+        "city": "Ciudad de México",
+        "state": "CDMX",
+        "street": "Av. Álvaro Obregón",
+        "number": "120",
+        "neighborhood": "Roma Norte",
+        "complement": "Depto 4B"
+      }
+    },
+    "items": [
+      { "id": "1203", "name": "Tenis urbanos blancos 26.5", "quantity": 1, "additionalInfo": { "dimension": { "weight": 900 } } },
+      { "id": "877", "name": "Calcetas deportivas (3 pares)", "quantity": 2, "additionalInfo": { "dimension": { "weight": 150 } } }
+    ],
+    "packageAttachment": {
+      "packages": [{ "invoiceNumber": "F-2026-0001", "invoiceValue": 2349.0, "trackingNumber": null }]
+    }
+  },
+  {
+    "orderId": "v1002-01",
+    "status": "ready-for-handling",
+    "clientProfileData": { "firstName": "Jorge", "lastName": "Ramírez" },
+    "shippingData": {
+      "address": {
+        "receiverName": "Jorge Ramírez",
+        "postalCode": "64000",
+        "city": "Monterrey",
+        "state": "NL",
+        "street": "Calle Padre Mier",
+        "number": "455",
+        "neighborhood": "Centro",
+        "complement": null
+      }
+    },
+    "items": [{ "id": "3301", "name": "Chamarra impermeable M", "quantity": 1 }],
+    "packageAttachment": { "packages": [] }
+  },
+  {
+    "orderId": "v1003-01",
+    "status": "canceled",
+    "clientProfileData": { "firstName": "Sofía", "lastName": "Hernández" },
+    "shippingData": {
+      "address": {
+        "receiverName": "Sofía Hernández",
+        "postalCode": "44100",
+        "city": "Guadalajara",
+        "state": "JAL",
+        "street": "Av. Juárez",
+        "number": "80",
+        "neighborhood": "Centro"
+      }
+    },
+    "items": [{ "id": "512", "name": "Mochila 25 L", "quantity": 1, "additionalInfo": { "dimension": { "weight": 700 } } }],
+    "packageAttachment": { "packages": [] }
+  }
+]
