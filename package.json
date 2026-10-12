@@ -1,0 +1,28 @@
+{
+  "name": "vtex-order-shipping-hook",
+  "version": "0.1.0",
+  "description": "Recibe el webhook de pedidos de VTEX y automatiza la guía de envío y el tracking",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "Iván Uriel Jiménez Granados",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch src/index.ts",
+    "start": "node --env-file-if-exists=.env src/index.ts",
+    "simulate": "node scripts/simulate.ts",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "fastify": "^5.12.5",
+    "zod": "^4.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "pino-pretty": "^13.2.0",
+    "typescript": "^5.9.3"
+  }
+}
